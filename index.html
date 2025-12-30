@@ -42,13 +42,12 @@
 
         .projects-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(2, 2fr);
             margin-top: 2rem;
+            gap: 25px;
         }
 
         .container {
-            margin-left: 15px;
-            margin-right: 15px;
             display: flex;
             align-items: center;
             gap: 10px;
@@ -64,6 +63,10 @@
             transform: translateY(-10px);
             box-shadow: 0 10px 20px rgba(15, 255, 55, 0.808);
             filter: brightness(1.2);
+        }
+
+        .grid-container {
+            margin: 30px;
         }
 
         .image img {
@@ -150,7 +153,6 @@
                 margin: 5px 0 0 0;
             }
         }
-
     </style>
 </head>
 
@@ -159,86 +161,54 @@
         More projects by me..
     </h1>
 
-    <div class="projects-grid">
-        <!-- 1 -->
-        <a href="https://sakibmansuri.github.io/color-palette-generator/" target="_blank">
-        <div class="container">
-            <div class="image">
-                <img src="https://sakibmansuri.github.io/Images/cpg.PNG" alt="">
-            </div>
-            <div class="details">
-                <h2>Color Palette Generator</h2>
-                <div class="border"></div>
-                <p>Languages used: HTML, CSS, JavaScript</p>
-            </div>
-        </div>
-        </a>
+    <div class="grid-container">
+        <div class="projects-grid">
+            
+            <!-- 1 -->
+            <a href="https://sakibmansuri.github.io/chatbot-basic/">
+                <div class="container">
+                    <div class="image">
+                        <img src="https://sakibmansuri.github.io/Images/chatbot.PNG" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Basic ChatBot</h2>
+                        <div class="border"></div>
+                        <p>Languages used: React</p>
+                        <p>Features: Can say hello, Flip a coin, Roll a dice</p>
+                    </div>
+                </div>
+            </a>
 
-        <!-- 2 -->
-        <div class="container">
-            <div class="image">
-                <img src="https://sakibmansuri.github.io/Images/SDbar.PNG" alt="">
-            </div>
-            <div class="details">
-                <h2 style="font-size: 40px;">Side bar for Websites Light & Dark theme</h2>
-                <div class="border"></div>
-                <p>Languages used: HTML, CSS, JavaScript</p>
-            </div>
+            <!-- 2 -->
+            <a href="https://sakibmansuri.github.io/Sidebar-Dark-Light-Theme-/">
+                <div class="container">
+                    <div class="image">
+                        <img src="https://sakibmansuri.github.io/Images/SDbar.PNG" alt="">
+                    </div>
+                    <div class="details">
+                        <h2 style="font-size: 40px;">Website Sidebar theme toggle</h2>
+                        <div class="border"></div>
+                        <p>Languages used: HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 3 -->
+            <a href="https://sakibmansuri.github.io/color-palette-generator/" target="_blank">
+                <div class="container">
+                    <div class="image">
+                        <img src="https://sakibmansuri.github.io/Images/cpg.PNG" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Color Palette Generator</h2>
+                        <div class="border"></div>
+                        <p>Languages used: HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+            </a>
+
         </div>
     </div>
-
-    <!-- <div class="projects-grid"> -->
-        <!-- 1 -->
-        <!-- <div class="container">
-            <div class="image">
-                <img src="https://sakibmansuri.github.io/Images/todo.PNG" alt="">
-            </div>
-            <div class="details">
-                <h2>Project Title</h2>
-                <div class="border"></div>
-                <p>Languages used: HTML, CSS, JavaScript</p>
-            </div>
-        </div> -->
-
-        <!-- 2 -->
-        <!-- <div class="container">
-            <div class="image">
-                <img src="https://sakibmansuri.github.io/Images/todo.PNG" alt="">
-            </div>
-            <div class="details">
-                <h2>Project Title</h2>
-                <div class="border"></div>
-                <p>Languages used: HTML, CSS, JavaScript</p>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- <div class="projects-grid"> -->
-        <!-- 1 -->
-        <!-- <div class="container">
-            <div class="image">
-                <img src="https://sakibmansuri.github.io/Images/todo.PNG" alt="">
-            </div>
-            <div class="details">
-                <h2>Project Title</h2>
-                <div class="border"></div>
-                <p>Languages used: HTML, CSS, JavaScript</p>
-            </div>
-        </div> -->
-
-        <!-- 2 -->
-        <!-- <div class="container">
-            <div class="image">
-                <img src="https://sakibmansuri.github.io/Images/todo.PNG" alt="">
-            </div>
-            <div class="details">
-                <h2>Project Title</h2>
-                <div class="border"></div>
-                <p>Languages used: HTML, CSS, JavaScript</p>
-            </div>
-        </div>
-    </div> -->
-
 </body>
 
 </html>
